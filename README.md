@@ -16,7 +16,7 @@ You can either use one of several pre-existing custom indicators/scripts in your
 
 ### Instructions
 
-1. Download [fxlabs-MQL4.zip]((https://github.com/oanda/mt4-fxlabs/blob/master/fxlabs-MQL4.zip)
+1. Download [fxlabs-MQL4.zip](https://github.com/oanda/mt4-fxlabs/blob/master/fxlabs-MQL4.zip)
 
 2. In your MT4 Client, click File->Open Data Folder. Copy fxlabs-MQL4.zip to this folder, and unzip. The contents should unzip into the appropriate subdirectories in this folder. 
 
