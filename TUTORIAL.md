@@ -1,7 +1,7 @@
 Tutorial: Using the fxLabs MQL4 API
 ===================================
 
-This document provides a tutorial for writing your own fxLabs tools with MQL4. Familiarity with MQL4 is assumed. If you are not famliar with MQL4, please refer to [book.mql4.com](http://book.mql4.com/) and [docs.mql4.com](http://docs.mql4.com/) for additional instructional material. 
+This document provides a tutorial for writing your own fxLabs tools with MQL4. Familiarity with MQL4 is assumed. If you are not familiar with MQL4, please refer to [book.mql4.com](http://book.mql4.com/) and [docs.mql4.com](http://docs.mql4.com/) for additional instructional material. 
 
 Before continuing, ensure that you have the fxlabs-MQL4 package installed on your machine. Details for doing this can be found [here](https://github.com/oanda/mt4-fxlabs).
 
@@ -96,7 +96,7 @@ Once this is done, call the `hpr_data(...)` method to fill in the arrays:
 bool success = hpr_data(ref, ts, perc); 
 ```
 
-The first argument is the reference id returned by the call to `hpr(...)`, and the second and third argurments are the arrays to be filled.  The method will return `true` on success, and `false` otherwise. The arrays are filled in "parallel" so that `ts[i]` corresponds to the timestamp associated with the percentage of long market orders in `perc[i]`. 
+The first argument is the reference id returned by the call to `hpr(...)`, and the second and third arguments are the arrays to be filled.  The method will return `true` on success, and `false` otherwise. The arrays are filled in "parallel" so that `ts[i]` corresponds to the timestamp associated with the percentage of long market orders in `perc[i]`. 
 
 ### A Note about Timestamps
 
@@ -125,10 +125,10 @@ if (success) {
 
 The method `convert_to_mt4_time_arr` modifies the array passed as an argument and does not return anything. 
 
-Please note that the timestamps returned by the fxLabs MQL4 API are in fact the correct time stamps. Conversion is only necessary if you intend to use timestamps within MT4 charts, such as drawing objects at certain times associated with retrieved data. 
+Please note that the timestamps returned by the fxLabs MQL4 API are in fact the correct time stamps. Conversion is only necessary if you intend to use timestamps to draw points within MT4 charts. 
 
 ### Next Steps
 
-We have described in this tutorial the basics of retrieving historical position ratios from the fxLabs API. Retrieving other types of data using the fxLabs MQL4 API follows a similar approach. 
+In this tutorial we have described the basics of retrieving historical position ratios from the fxLabs API. Retrieving other types of data using the fxLabs MQL4 API follows a similar approach. 
 
 Detailed documentation for the fxLabs MQL4 API methods is provided in the header file `fxlabsnet.mqh`. There are also several example scripts and indicators, with full source, provided in the [fxLabs-MQL4 package](https://github.com/oanda/mt4-fxlabs). 
