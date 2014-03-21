@@ -22,7 +22,13 @@ You can either use one of several pre-existing custom indicators/scripts in your
 
 3. Using Windows File Explorer, go to the MQL4\Libraries subdirectory, right-click on fxlabsnet.dll, and choose 'Properties'. Click the 'Unblock' button if it's present. (If the 'Unblock' button is not there, then don't worry about this step.) 
 
-4. Restart your MT4 client if it is currently running. 
+4. In your MT4 client, select Tools->Options, and navigate to the "Expert Advisors" tab. 
+
+    * Ensure checkboxes for "Enable Expert Advisors", "Allow DLL imports", and "Allow external experts imports" are all checked. 
+   
+    * Ensure the checkbox for "Confirm DLL function calls" is NOT checked. 
+
+5. Restart your MT4 client if it is currently running. 
 
 You should now see new entries under the 'Custom Indicators' and 'Scripts' sections of the Navigator panel. The available indicators and scripts are described below. 
 

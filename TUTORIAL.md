@@ -41,12 +41,13 @@ The instrument passed into `hpr(...)` as the first argument must be formatted wi
  
 ```
 string symbol = Symbol(); 
-symbol = StringConcatenate(StringSubstr(symbol, 0, 3), "/", StringSubstr(symbol, 3));
+int pos = StringLen(symbol)-3; 
+symbol = StringConcatenate(StringSubstr(symbol, 0, pos), "/", StringSubstr(symbol, pos));
 
 int ref = hpr(symbol,60*60*24*30); 
 ```
 
-`Symbol()`, `StringConcatenate()`, and `StringSubstr()` are all standard MQL4 methods. 
+(`Symbol()`, `StringLen()`, `StringConcatenate()`, and `StringSubstr()` are all standard MQL4 methods.) 
 
 ### How much HPR data was retrieved?
 
