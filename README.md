@@ -38,13 +38,19 @@ You should now see new entries under the 'Custom Indicators' and 'Scripts' secti
 
 Graph OANDA's historical ratios between long and short positions held by customers. 
 
+Available instruments: AUD/JPY, AUD/USD, EUR/AUD, EUR/CHF, EUR/GBP, EUR/JPY, EUR/USD, GBP/CHF, GBP/JPY, GBP/USD, NZD/USD, USD/CAD, USD/CHF, USD/JPY, XAU/USD, XAG/USD. 
+
 ### Indicator: OANDA_Spreads
 
 Graph OANDA's historical spread values (ask-bid difference) for an instrument. 
 
+Available instruments: All tradable.
+
 ### Indicator: OANDA_Commitments_of_Traders
 
-Graph Commitments of Traders data from the [CFTC](http://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm). 
+Graph net non-commercial Commitments of Traders data from the [CFTC](http://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm). 
+
+Available instruments: All tradable.
 
 ### Indicator: OANDA_Orderbook
 
@@ -54,14 +60,20 @@ MT4 is limited to how it can show the orderbook data in a price vs time chart wi
 
 In particular, the MT4 indicator graphs two bars, similar to the Historical Position Ratios indicator. The top one is the percentage of long orders with trigger prices above the high price of the candle, and the lower bar is the percentage of short orders with trigger prices below the low price of the candle. This is intended to give an idea of how strong market sentiment is that the instrument's price will increase or decrease. 
 
+Available instruments: AUD/JPY, AUD/USD, EUR/AUD, EUR/CHF, EUR/GBP, EUR/JPY, EUR/USD, GBP/CHF, GBP/JPY, GBP/USD, NZD/USD, USD/CAD, USD/CHF, USD/JPY, XAU/USD, XAG/USD. 
+
 ### Script: fxlabs_calendar_demo
 
-Draws markers associated with calendar headlines overlaid on a chart window.
+Draws markers associated with significant forex calendar headlines overlaid on a chart window.
+
+Available instruments: All tradable.
 
 ### Script: fxlabs_hpr_demo
 
 Similar to the Historical Position Ratio indicator, except it will draw the HPR graph overlaid
 on the chart window, instead of drawing the graph in a separate indicator window. 
+
+Available instruments: AUD/JPY, AUD/USD, EUR/AUD, EUR/CHF, EUR/GBP, EUR/JPY, EUR/USD, GBP/CHF, GBP/JPY, GBP/USD, NZD/USD, USD/CAD, USD/CHF, USD/JPY, XAU/USD, XAG/USD. 
 
 ## Writing MQL4 Based fxLabs Tools
 
