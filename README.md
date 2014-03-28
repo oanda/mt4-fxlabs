@@ -1,9 +1,11 @@
-MT4-fxLabs
-==========
+MT4-fxLabs (Beta)
+=================
 
 The MT4-fxLabs project brings the power of [OANDA Forex Labs](http://fxtrade.oanda.com/analysis/labs/) to [MT4](http://fxtrade.oanda.com/trade-forex/metatrader/). 
 
 You can either use one of several pre-existing custom indicators/scripts in your MT4 client, or you can create your own using the MQL4 API for fxLabs. 
+
+(Please note that this tool is still in beta stages and may undergo changes to its interface.)
 
 ## Installation of MT4-fxLabs Tools
 
