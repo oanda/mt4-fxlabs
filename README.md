@@ -37,11 +37,15 @@ You should now see new entries under the 'Custom Indicators' and 'Scripts' secti
 
 ### Indicator: OANDA_Historical_Position_Ratios
 
+![MT4-fxLabs HPR Screenshot](https://github.com/oanda/mt4-fxlabs/raw/master/mt4-hpr.jpg)
+
 Graph OANDA's historical ratios between long and short positions held by customers. 
 
 Available instruments: AUD/JPY, AUD/USD, EUR/AUD, EUR/CHF, EUR/GBP, EUR/JPY, EUR/USD, GBP/CHF, GBP/JPY, GBP/USD, NZD/USD, USD/CAD, USD/CHF, USD/JPY, XAU/USD, XAG/USD. 
 
 ### Indicator: OANDA_Spreads
+
+![MT4-fxLabs Spreads Screenshot](https://github.com/oanda/mt4-fxlabs/raw/master/mt4-spreads.jpg)
 
 Graph OANDA's historical spread values (ask-bid difference) for an instrument. 
 
@@ -49,11 +53,15 @@ Available instruments: All tradable.
 
 ### Indicator: OANDA_Commitments_of_Traders
 
+![MT4-fxLabs COT Screenshot](https://github.com/oanda/mt4-fxlabs/raw/master/mt4-cot.jpg)
+
 Graph net non-commercial Commitments of Traders data from the [CFTC](http://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm). 
 
 Available instruments: AUD/USD, GBP/USD, USD/CAD, EUR/USD, USD/JPY, USD/MXN, NZD/USD, USD/CHF, XAU/USD, XAG/USD
 
 ### Indicator: OANDA_Orderbook
+
+![MT4-fxLabs Orderbook Screenshot](https://github.com/oanda/mt4-fxlabs/raw/master/mt4-orderbook.jpg)
 
 Graph OANDA's Orderbook data. See [OANDA Forex Order Book](http://fxtrade.oanda.ca/analysis/forex-order-book) for more details. 
 
@@ -65,11 +73,15 @@ Available instruments: AUD/JPY, AUD/USD, EUR/AUD, EUR/CHF, EUR/GBP, EUR/JPY, EUR
 
 ### Script: fxlabs_calendar_demo
 
+![MT4-fxLabs Calendar Screenshot](https://github.com/oanda/mt4-fxlabs/raw/master/mt4-calendar.jpg)
+
 Draws markers associated with significant forex calendar headlines overlaid on a chart window.
 
 Available instruments: All tradable.
 
 ### Script: fxlabs_hpr_demo
+
+![MT4-fxLabs HPR-Script Screenshot](https://github.com/oanda/mt4-fxlabs/raw/master/mt4-hpr-script.jpg)
 
 Similar to the Historical Position Ratio indicator, except it will draw the HPR graph overlaid
 on the chart window, instead of drawing the graph in a separate indicator window. 
