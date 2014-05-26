@@ -94,4 +94,5 @@ To write your own fxLabs tools in MT4, add the declaration `#include <fxlabsnet.
 
 ___
 
--> <small>Leverage trading is high risk and not suitable for all. You could lose all of your deposited funds. Articles are for general information purposes only and are not investment advice or a solution to buy or sell any investment product. Opinions are those of the authors and not necessarily those of OANDA, its officers, or its directors. Examples shown are for illustrative purposes only and may not reflect current prices or offers from OANDA.</small> <-
+<p align="center" style="font-size:50%">
+Leverage trading is high risk and not suitable for all. You could lose all of your deposited funds. Articles are for general information purposes only and are not investment advice or a solution to buy or sell any investment product. Opinions are those of the authors and not necessarily those of OANDA, its officers, or its directors. Examples shown are for illustrative purposes only and may not reflect current prices or offers from OANDA.</p>
