@@ -133,3 +133,15 @@ Please note that the timestamps returned by the fxLabs MQL4 API are in fact the 
 In this tutorial we have described the basics of retrieving historical position ratios from the fxLabs API. Retrieving other types of data using the fxLabs MQL4 API follows a similar approach. 
 
 Detailed documentation for the fxLabs MQL4 API methods is provided in the header file `fxlabsnet.mqh`. There are also several example scripts and indicators, with full source, provided in the [fxLabs-MQL4 package](https://github.com/oanda/mt4-fxlabs). 
+
+___
+
+
+###### Copyright and License
+
+This software is copyright (c) 2014 by OANDA Corporation and distributed under MIT [License](https://github.com/oanda/mt4-fxlabs/blob/master/LICENSE.md).
+
+###### Disclaimer
+
+Leverage trading is high risk and not suitable for all. You could lose all of your deposited funds. Articles are for general information purposes only and are not investment advice or a solution to buy or sell any investment product. Opinions are those of the authors and not necessarily those of OANDA, its officers, or its directors. Examples shown are for illustrative purposes only and may not reflect current prices or offers from OANDA.
+
