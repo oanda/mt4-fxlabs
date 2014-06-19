@@ -16,7 +16,7 @@ You can either use one of several pre-existing custom indicators/scripts in your
 * MT4 Client, build 600 or greater. This can be downloaded by following the instructions at OANDA's [MT4 Account Setup](http://fxtrade.oanda.com/trade-forex/metatrader/trade-account-setup) page. 
 
 * .NET3.5 framework. Can be installed as follows:
-    * Windows 7: Control Panel -> Programs -> Turn Windows Features on or off,navigate to .NET Framework 3.5 entry.
+    * Windows 7: Control Panel -> Programs -> Turn Windows Features on or off, navigate to .NET Framework 3.5 entry.
     * Windows XP/Vista/Server2003/Server2008: See instructions at [Microsoft .NET Framework 3.5](http://www.microsoft.com/en-ca/download/details.aspx?id=21)
 
 
