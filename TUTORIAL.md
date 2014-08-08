@@ -32,17 +32,17 @@ Below we describe how to retrieve data for Historical Position Ratios, but the b
 To retrieve the last month of HPR data for EUR/USD, use the following code segment:
 
 ```
-int ref = hpr("EUR/USD",60*60*24*30); 
+int ref = hpr("EUR_USD",60*60*24*30); 
 ```
 
 The first and second arguments specify the instrument and period of time in seconds for which data is being retrieved, respectively. The return value is a reference id to the data retrieved, which is used in separate fxlabs API calls to extract specific parts of the retrieved data. 
 
-The instrument passed into `hpr(...)` as the first argument must be formatted with a forward slash between the base and quote currencies. Since MT4 symbols do not have this formatting by default, you need to insert it yourself. This can be easily done as follows:
+The instrument passed into `hpr(...)` as the first argument must be formatted with an underscore between the base and quote currencies. Since MT4 symbols do not have this formatting by default, you need to insert it yourself. This can be easily done as follows:
  
 ```
 string symbol = Symbol(); 
 int pos = StringLen(symbol)-3; 
-symbol = StringConcatenate(StringSubstr(symbol, 0, pos), "/", StringSubstr(symbol, pos));
+symbol = StringConcatenate(StringSubstr(symbol, 0, pos), "_", StringSubstr(symbol, pos));
 
 int ref = hpr(symbol,60*60*24*30); 
 ```
